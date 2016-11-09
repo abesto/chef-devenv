@@ -1,6 +1,8 @@
 {
     "run_list": [
         "pacman",
+        "user",
+        "unix_utils",
         "virtualbox_guest",
         "lightdm",
         "xfce",
@@ -8,7 +10,19 @@
         "st",
         "xmonad",
         "fish",
-        "firefox"
+        "firefox",
+        "slack",
+        "gitter",
+        "keychain",
+        "openssh",
+        "vim",
+        "git",
+        "java",
+        "scala",
+        "go",
+        "python",
+        "spellcheck",
+        "colemak"
     ],
     "user": "abesto"
 }

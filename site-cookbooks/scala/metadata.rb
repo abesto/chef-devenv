@@ -1,0 +1,3 @@
+name 'scala'
+
+depends 'java'

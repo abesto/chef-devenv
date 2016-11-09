@@ -1,0 +1,3 @@
+name 'keychain'
+
+depends 'bashrc'

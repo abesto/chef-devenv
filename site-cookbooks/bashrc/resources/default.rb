@@ -1,5 +1,6 @@
 property :priority, :kind_of => Integer, :required => true
 property :cookbook, :kind_of => String
+property :source, :kind_of => String, :default => lazy { |r| r.name }
 
 default_action :create
 
@@ -8,9 +9,11 @@ action :create do
 
   _cookbook = cookbook
   _name = name
+  _source = source
   cookbook_file ::File.join(Dir.home(node['user']), '.bashrc.d', "#{priority}#{name}") do
     source _name
     cookbook _cookbook
+    source _source
     user node['user']
   end
 end
