@@ -1,0 +1,3 @@
+name 'bashrc'
+
+depends 'dotfiles'

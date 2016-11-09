@@ -1,0 +1,6 @@
+{
+    "run_list": [
+        "fish"
+    ],
+    "user": "abesto"
+}
