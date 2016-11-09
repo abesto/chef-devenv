@@ -6,7 +6,7 @@ property :location, :kind_of => String
 default_action :create
 
 def target_location
-   ::File.join(Dir.home, location || source)
+   ::File.join(Dir.home(node['user']), location || source)
 end
 
 action :create do

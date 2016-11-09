@@ -1,0 +1,7 @@
+DEPENDENCIES
+  pacman
+    git: https://github.com/abesto/pacman.git
+    revision: c66bfc86cf33c5de42293b6f9830dead17f9b3db
+
+GRAPH
+  pacman (2.0.1)

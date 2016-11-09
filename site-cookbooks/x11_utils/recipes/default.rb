@@ -1,0 +1,2 @@
+package 'xclip'
+package 'xterm'

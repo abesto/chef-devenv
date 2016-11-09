@@ -1,6 +1,14 @@
 {
     "run_list": [
-        "fish"
+        "pacman",
+        "virtualbox_guest",
+        "lightdm",
+        "xfce",
+        "x11_utils",
+        "st",
+        "xmonad",
+        "fish",
+        "firefox"
     ],
     "user": "abesto"
 }

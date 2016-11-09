@@ -1,0 +1,3 @@
+name 'xfce'
+
+depends 'pacman'
