@@ -13,6 +13,7 @@ action :install do
     converge_by 'install fisherman' do
       fish 'install fisherman' do
         code 'curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher'
+        user node['user']
       end
     end
   end
