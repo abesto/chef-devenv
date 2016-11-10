@@ -7,4 +7,4 @@ cookbook_path [
   "#{mydir}/site-cookbooks"
 ]
 
-minimal_ohai true
+ohai.disabled_plugins = [:Scala]

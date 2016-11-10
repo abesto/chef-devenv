@@ -16,6 +16,7 @@
         "keychain",
         "openssh",
         "vim",
+        "emacs",
         "git",
         "java",
         "scala",
