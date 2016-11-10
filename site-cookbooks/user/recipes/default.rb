@@ -5,3 +5,5 @@ group 'wheel' do
   members node['user']
   append true
 end
+
+sudo_group 'wheel'

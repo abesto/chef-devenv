@@ -1,6 +1,7 @@
 {
     "run_list": [
         "pacman",
+        "sudo",
         "user",
         "unix_utils",
         "virtualbox_guest",

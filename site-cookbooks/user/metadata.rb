@@ -1,0 +1,3 @@
+name 'user'
+
+depends 'sudo'
