@@ -1,4 +1,4 @@
-directory "#{Dir.home(node['user'])}/.bashrc.d" do
+directory "#{node['home']}/.bashrc.d" do
   user node['user']
 end
 

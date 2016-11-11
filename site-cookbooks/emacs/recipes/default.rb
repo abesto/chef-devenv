@@ -8,7 +8,7 @@ end
 
 symlink_dotfile '.spacemacs'
 
-git "#{Dir.home(node['user'])}/.emacs.d" do
+git "#{node['home']}/.emacs.d" do
   repository 'https://github.com/syl20bnr/spacemacs'
   action :checkout
 end

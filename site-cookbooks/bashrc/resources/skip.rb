@@ -4,7 +4,7 @@ property :priority, :kind_of => Integer, :required => true
 default_action :create
 
 action :create do
-  dir = ::File.join(Dir.home(node['user']), ".bashrc-#{flavor}.skip")
+  dir = ::File.join(node['home'], ".bashrc-#{flavor}.skip")
 
   include_recipe 'bashrc'
   bashrc_flavor flavor

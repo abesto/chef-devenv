@@ -1,1 +1,1 @@
-default['dotfiles_clone'] = "#{Dir.home(node['user'])}/dotfiles.chef"
+default['dotfiles_clone'] = "#{node['home']}/dotfiles.chef"

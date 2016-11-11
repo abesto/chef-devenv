@@ -1,0 +1,32 @@
+{
+    "run_list": [
+        "pacman",
+        "sudo",
+        "user",
+        "unix_utils",
+        "virtualbox_guest",
+        "lightdm",
+        "xfce",
+        "x11_utils",
+        "st",
+        "xmonad",
+        "fish",
+        "firefox",
+        "slack",
+        "gitter",
+        "keychain",
+        "openssh",
+        "vim",
+        "emacs",
+        "git",
+        "java",
+        "scala",
+        "go",
+        "python",
+        "spellcheck",
+        "colemak"
+    ],
+    "default_attributes": {
+        "user": "abesto"
+    }
+}

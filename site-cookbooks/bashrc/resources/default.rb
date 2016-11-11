@@ -10,7 +10,7 @@ action :create do
   _cookbook = cookbook
   _name = name
   _source = source
-  cookbook_file ::File.join(Dir.home(node['user']), '.bashrc.d', "#{priority}#{name}") do
+  cookbook_file ::File.join(node['home'], '.bashrc.d', "#{priority}#{name}") do
     source _name
     cookbook _cookbook
     source _source
