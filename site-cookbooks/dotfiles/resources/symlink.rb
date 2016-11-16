@@ -11,9 +11,18 @@ end
 
 action :create do
   include_recipe 'dotfiles'
-  directory ::File.dirname(target_location) do
-    user node['user']
+
+  # Create target directory, and chown it to the user, along with its and parent dirs, up to the home dir
+  dir = target_location
+  while dir != ::Dir.home(node['user'])
+    dir = ::File.dirname(dir)
+    directory dir do
+      owner node['user']
+      recursive true
+    end
   end
+
+  # Then create the symlink
   link target_location do
     to "#{node['dotfiles_clone']}/#{source}"
     user node['user']

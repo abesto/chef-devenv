@@ -3,6 +3,7 @@
         "pacman",
         "sudo",
         "user",
+        "colemak",
         "unix_utils",
         "virtualbox_guest",
         "lightdm",
@@ -23,8 +24,7 @@
         "scala",
         "go",
         "python",
-        "spellcheck",
-        "colemak"
+        "spellcheck"
     ],
     "default_attributes": {
         "user": "abesto"

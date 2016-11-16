@@ -8,7 +8,8 @@ module SmartUser
       arg,
       :kind_of => [ String, Integer ]
     )
-    environment({'HOME' => ::Dir.home(@user), 'USER' => @user})
+    environment({'HOME' => ::Dir.home(@user),
+		 'USER' => @user})
     guard_interpreter resource_name
     retval
   end

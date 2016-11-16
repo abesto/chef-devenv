@@ -29,5 +29,5 @@ systemd_unit 'emacs.service' do
             }
   })
   user node['user']
-  action [:create, :enable, :start]
+  action [:create]  # Enable manually; user systemd session is not always available
 end
