@@ -1,0 +1,2 @@
+name 'tmux'
+depends 'dotfiles'
