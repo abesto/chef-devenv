@@ -7,6 +7,7 @@ Currently has VirtualBox-guest-specific features, might get smarter over time
 ```sh
 git clone https://github.com/abesto/chef-devenv.git
 cd chef-devenv
+./apply-archlinux.sh
 sudo chef-solo -c solo.rb -j nodes/arch.json
 pacman -Syu
 passwd

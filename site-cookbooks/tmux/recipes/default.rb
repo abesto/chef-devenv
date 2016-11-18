@@ -9,3 +9,7 @@ git "#{node['home']}/.tmux/plugins/tpm" do
 end
 
 symlink_dotfile '.tmux.conf'
+
+bash 'Install tmux plugins' do
+  code "#{node['home']}/.tmux/plugins/tpm/bin/install_plugins"
+end

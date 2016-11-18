@@ -1,7 +1,8 @@
 {
     "name": "osx",
     "run_list": [
-        "recipe[fish]"
+        "fish",
+        "tmux"
     ],
     "default_attributes": {
         "user": "abesto",

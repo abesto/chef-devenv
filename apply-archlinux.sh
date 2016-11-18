@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo chef-solo -c solo.rb -j nodes/arch.json
