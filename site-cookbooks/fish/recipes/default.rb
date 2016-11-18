@@ -1,5 +1,13 @@
+include_recipe 'chef-sugar::default'
+
 package 'fish'
-package 'fortune-mod'
+
+if mac_os_x?
+  package 'fortune'
+else
+  package 'fortune-mod'
+end
+
 package 'most'
 
 fisher_package 'z'

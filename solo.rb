@@ -7,4 +7,6 @@ cookbook_path [
   "#{mydir}/site-cookbooks"
 ]
 
+role_path "#{mydir}/roles"
+
 ohai.disabled_plugins = [:Scala]

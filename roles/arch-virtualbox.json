@@ -28,6 +28,7 @@
         "spellcheck"
     ],
     "default_attributes": {
-        "user": "abesto"
+        "user": "abesto",
+        "home": "/home/abesto"
     }
 }

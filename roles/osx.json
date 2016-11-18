@@ -1,0 +1,10 @@
+{
+    "name": "osx",
+    "run_list": [
+        "recipe[fish]"
+    ],
+    "default_attributes": {
+        "user": "abesto",
+        "home": "/Users/abesto"
+    }
+}

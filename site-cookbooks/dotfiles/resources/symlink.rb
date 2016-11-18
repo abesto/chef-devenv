@@ -14,7 +14,7 @@ action :create do
 
   # Create target directory, and chown it to the user, along with its and parent dirs, up to the home dir
   dir = target_location
-  while dir != ::Dir.home(node['user'])
+  while dir != node['home']
     dir = ::File.dirname(dir)
     directory dir do
       owner node['user']
