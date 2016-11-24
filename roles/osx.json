@@ -1,6 +1,7 @@
 {
     "name": "osx",
     "run_list": [
+        "scala",
         "fish",
         "tmux"
     ],

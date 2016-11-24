@@ -1,9 +1,26 @@
 DEPENDENCIES
   chef-sugar
+  homebrew
   pacman
     git: https://github.com/abesto/pacman.git
     revision: aa8228c35e60cadd5af71709b68a2d92e9995992
 
 GRAPH
+  build-essential (7.0.2)
+    compat_resource (>= 12.14)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
   chef-sugar (3.4.0)
+  compat_resource (12.16.2)
+  homebrew (2.1.2)
+    build-essential (>= 2.1.2)
+  mingw (1.2.4)
+    compat_resource (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  ohai (4.2.2)
+    compat_resource (>= 12.14)
   pacman (2.0.2)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (2.1.1)
+    ohai (>= 4.0.0)
