@@ -1,5 +1,6 @@
 name 'emacs'
 
+depends 'chef-sugar'
 depends 'dotfiles'
-depends 'systemd'
 depends 'pacman'
+depends 'nodejs'

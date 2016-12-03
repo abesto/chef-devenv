@@ -1,4 +1,4 @@
-property :priority, :kind_of => Integer, :required => true
+property :priority, :kind_of => Integer, :default => 20
 property :cookbook, :kind_of => String
 property :source, :kind_of => String, :default => lazy { |r| r.name }
 

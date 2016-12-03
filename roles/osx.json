@@ -3,7 +3,8 @@
     "run_list": [
         "scala",
         "fish",
-        "tmux"
+        "tmux",
+        "emacs"
     ],
     "default_attributes": {
         "user": "abesto",

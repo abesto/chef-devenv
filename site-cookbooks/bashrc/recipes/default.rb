@@ -3,3 +3,5 @@ directory "#{node['home']}/.bashrc.d" do
 end
 
 symlink_dotfile '.bashrc'
+
+bashrc 'path-usr-local-bin.sh'
