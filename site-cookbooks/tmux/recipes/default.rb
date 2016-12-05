@@ -12,4 +12,5 @@ symlink_dotfile '.tmux.conf'
 
 bash 'Install tmux plugins' do
   code "#{node['home']}/.tmux/plugins/tpm/bin/install_plugins"
+  environment ({ 'TMUX_PLUGIN_MANAGER_PATH' => "#{node['home']}/.tmux/plugins" })
 end
