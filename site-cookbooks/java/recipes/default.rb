@@ -5,3 +5,5 @@ if mac_os_x?
 else
   package 'jdk8-openjdk'
 end
+
+package 'maven'
