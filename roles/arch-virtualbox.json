@@ -4,7 +4,7 @@
         "sudo", "user", "unix_utils", "keychain",
         "colemak", "spellcheck",
         "lightdm", "xfce", "x11_utils", "xmonad",
-        "st", "fish", "tmux",
+        "st", "fish", "tmux", "peco",
         "firefox",
         "openssh", "vim", "emacs", "git",
         "java", "scala", "go", "python", "typescript"
