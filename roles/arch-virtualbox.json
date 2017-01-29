@@ -7,10 +7,14 @@
         "st", "fish", "tmux", "peco",
         "firefox",
         "openssh", "vim", "emacs", "git",
-        "java", "scala", "go", "python", "typescript"
+        "java", "scala", "go", "python", "typescript",
+        "serverless::apex"
     ],
     "default_attributes": {
         "user": "abesto",
-        "home": "/home/abesto"
+        "home": "/home/abesto",
+        "nodejs": {
+            "install_method": "binary"
+        }
     }
 }

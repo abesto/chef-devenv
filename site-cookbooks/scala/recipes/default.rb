@@ -5,7 +5,8 @@ package 'sbt'
 if mac_os_x?
   package 'scalastyle'
 else
-  pacman_aur 'scalastyle'
+  # shit's on fire, yo
+  #pacman_aur 'scalastyle'
 end
 
 symlink_dotfile '.gradle/init.gradle'

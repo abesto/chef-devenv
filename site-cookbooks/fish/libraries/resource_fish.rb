@@ -8,10 +8,12 @@ module SmartUser
       arg,
       :kind_of => [ String, Integer ]
     )
-    environment(environment.merge(
-                  {'HOME' => ::Dir.home(@user),
-                   'USER' => @user}
-                ))
+    unless environment.nil?
+      environment(environment.merge(
+                    {'HOME' => ::Dir.home(@user),
+                     'USER' => @user}
+                  ))
+    end
     guard_interpreter resource_name
     retval
   end
