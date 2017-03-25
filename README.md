@@ -1,3 +1,7 @@
+# Vaporware
+
+Content in this repo has been migrated to https://github.com/abesto/ansible-devenv
+
 Currently has VirtualBox-guest-specific features, might get smarter over time
 
 ## Installing
